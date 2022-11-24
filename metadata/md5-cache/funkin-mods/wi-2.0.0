@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst
+DEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+DESCRIPTION=Linux port of Wednesday's Infidelity
+EAPI=8
+HOMEPAGE=https://github.com/MagelessMayhem/WI-Gentoo
+IUSE=+X +alsa pulseaudio
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+SLOT=0
+SRC_URI=https://github.com/MagelessMayhem/WI-Gentoo/releases/download/v2.0.0-RELEASE/WI-Gentoo.tar.gz
+_md5_=abf8071f00f936a09680366e5218d79c

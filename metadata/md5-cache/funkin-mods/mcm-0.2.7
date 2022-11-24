@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst
+DEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+DESCRIPTION=FNF mod based on Red Mist and surrounding media
+EAPI=8
+HOMEPAGE=https://github.com/pahaze/Mistful-Crimson-Morning
+IUSE=+X +alsa pulseaudio
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+SLOT=0
+SRC_URI=https://github.com/MagelessMayhem/mcm-gentoo/releases/download/v0.2.7-RELEASE/MCM.tar.gz
+_md5_=1f3b9322b0bf5681619b86e6b715c607

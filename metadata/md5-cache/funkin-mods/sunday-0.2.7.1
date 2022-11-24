@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst
+DEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+DESCRIPTION=FNF mod by bbpanzu based on a wannabe rockstar
+EAPI=8
+HOMEPAGE=https://github.com/bbpanzu/FNF-Sunday
+IUSE=+X +alsa pulseaudio
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+SLOT=0
+SRC_URI=https://github.com/MagelessMayhem/Violet-Sunday/releases/download/v0.2.7.1-RELEASE/Violet-Sunday.tar.gz
+_md5_=fb2945bb6736219c5bc6fac3568492a4

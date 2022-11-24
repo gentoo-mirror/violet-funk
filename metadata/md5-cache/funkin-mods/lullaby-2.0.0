@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst
+DEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+DESCRIPTION=Forever Engine port of Hypno's Lullaby
+EAPI=8
+HOMEPAGE=https://github.com/MAJigsaw77/Lullaby-Forever
+IUSE=+X +alsa pulseaudio
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+SLOT=0
+SRC_URI=https://github.com/MagelessMayhem/Lullaby-Forever/releases/download/v2.0.0-RELEASE/Violet-Lullaby.tar.gz
+_md5_=386ffcc498f1685901b7ea248c0fb670
