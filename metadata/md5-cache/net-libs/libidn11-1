@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Pre-built libidn11 shared objects, needed for some mods to work
+EAPI=8
+HOMEPAGE=https://github.com/MagelessMayhem/Funkin/releases/tag/v0.2.7.1-DEPS
+KEYWORDS=~amd64
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=https://github.com/MagelessMayhem/Funkin/releases/download/v0.2.7.1-DEPS/libidn11.tar.gz
+_md5_=61c3ee071b6dc5ed158618102bec2cd4
