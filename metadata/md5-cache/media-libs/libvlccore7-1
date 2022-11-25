@@ -6,4 +6,4 @@ KEYWORDS=~amd64
 LICENSE=LGPL-2.1
 SLOT=0
 SRC_URI=https://github.com/MagelessMayhem/Funkin/releases/download/v0.2.7.1-DEPS/libvlccore7.tar.gz
-_md5_=a552efdc91461513df2ffa8bc4eb2ea0
+_md5_=3aeb74a346dd74a42c4a358b03d7b60c
