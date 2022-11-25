@@ -2,6 +2,54 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+funkin-mods/beepie:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/beepie:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/beepie:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/cyber-sensation:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/cyber-sensation:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/cyber-sensation:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/ddt:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/ddt:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/ddt:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/ddt-be:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/ddt-be:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/ddt-be:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/dnb:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/dnb:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/dnb:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/fliqpy-kade:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/fliqpy-kade:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/fliqpy-kade:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/fnf-soft:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/fnf-soft:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/fnf-soft:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/gorefield:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/gorefield:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/gorefield:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/indie-cross:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/indie-cross:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/indie-cross:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/jerry:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/jerry:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/jerry:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/lullaby:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/lullaby:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/lullaby:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/mcm:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/mcm:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/mcm:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/sunday:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/sunday:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/sunday:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/tricky-kade:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/tricky-kade:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/tricky-kade:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/wi:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/wi:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/wi:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/zardy-kade:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/zardy-kade:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/zardy-kade:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 games-arcade/funkin-vanilla:X - Pull in X and its dependencies to be able to run the game.
 games-arcade/funkin-vanilla:alsa - Enable basic audio support. Useful for most sessions.
 games-arcade/funkin-vanilla:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
