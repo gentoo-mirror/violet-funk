@@ -23,9 +23,6 @@ funkin-mods/fliqpy-kade:pulseaudio - Enable PulseAudio support; useful for deskt
 funkin-mods/fnf-soft:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/fnf-soft:alsa - Enable basic audio support. Useful for most sessions.
 funkin-mods/fnf-soft:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
-funkin-mods/indie-cross:X - Pull in X and its dependencies to be able to run the game.
-funkin-mods/indie-cross:alsa - Enable basic audio support. Useful for most sessions.
-funkin-mods/indie-cross:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 funkin-mods/jerry:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/jerry:alsa - Enable basic audio support. Useful for most sessions.
 funkin-mods/jerry:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
