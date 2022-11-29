@@ -1,8 +1,8 @@
 DEFINED_PHASES=-
-DEPEND=funkin-mods/beepie funkin-mods/cyber-sensation funkin-mods/ddt-be funkin-mods/ddt funkin-mods/fliqpy-kade funkin-mods/fnf-soft funkin-mods/gorefield funkin-mods/indie-cross funkin-mods/jerry funkin-mods/lullaby funkin-mods/mcm funkin-mods/sunday funkin-mods/tricky-kade funkin-mods/wi funkin-mods/zardy-kade
+DEPEND=funkin-mods/beepie funkin-mods/cyber-sensation funkin-mods/ddt-be funkin-mods/ddt funkin-mods/fliqpy-kade funkin-mods/fnf-soft funkin-mods/lullaby funkin-mods/mcm funkin-mods/sunday funkin-mods/tricky-kade funkin-mods/wi funkin-mods/zardy-kade
 DESCRIPTION=Metapackage for FNF mods
 EAPI=8
 KEYWORDS=~amd64
 LICENSE=metapackage
 SLOT=0
-_md5_=d588000681cdb3c96a9b4c7aed27001c
+_md5_=22d6770a02d69531a5b08db896671602
