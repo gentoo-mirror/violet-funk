@@ -32,11 +32,15 @@ funkin-mods/mcm:pulseaudio - Enable PulseAudio support; useful for desktop sessi
 funkin-mods/sunday:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/sunday:alsa - Enable basic audio support. Useful for most sessions.
 funkin-mods/sunday:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/the-puppet-master:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/the-puppet-master:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/the-puppet-master:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 funkin-mods/tricky-kade:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/tricky-kade:alsa - Enable basic audio support. Useful for most sessions.
 funkin-mods/tricky-kade:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 funkin-mods/wi:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/wi:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/wi:private-build - Install a binary with the PRIVATE_BUILD Lime definition. See the mod's homepage for details.
 funkin-mods/wi:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 funkin-mods/zardy-kade:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/zardy-kade:alsa - Enable basic audio support. Useful for most sessions.
