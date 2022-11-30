@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst
+DEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+DESCRIPTION=FNF mod based on Jenny the Teenage Robot
+EAPI=8
+HOMEPAGE=https://github.com/BRN101/jenny_public_master
+IUSE=+X +alsa pulseaudio
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=X? ( x11-base/xorg-server ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+SLOT=0
+SRC_URI=https://github.com/MagelessMayhem/Violet-Jenny/releases/download/v0.2.7-RELEASE/Violet-Jenny.tar.gz
+_md5_=9eb7838fe76d336dda0591713f32059b
