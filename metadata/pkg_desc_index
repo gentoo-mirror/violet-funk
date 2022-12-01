@@ -15,5 +15,4 @@ funkin-mods/vf-meta 1: Metapackage for FNF mods
 funkin-mods/wi 2.0.0: Linux port of Wednesday's Infidelity
 funkin-mods/zardy-kade 0.2.7.1: FNF mod based around a scarecrow and his cablestand
 games-arcade/funkin-vanilla 0.2.7.1: A rhythm game made with HaxeFlixel, originally made for Ludum Dare 47's "Stuck in a Loop"
-media-libs/libvlccore7 1: Pre-built libvlccore7 shared objects, targetted at FNF
 net-libs/libidn11 1: Pre-built libidn11 shared objects, needed for some mods to work
