@@ -52,3 +52,7 @@ games-arcade/funkin-vanilla:X - Pull in X and its dependencies to be able to run
 games-arcade/funkin-vanilla:alsa - Enable basic audio support. Useful for most sessions.
 games-arcade/funkin-vanilla:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 games-arcade/funkin-vanilla:utau - Override the standard songs with covers synthesized using UTAU/OpenUTAU software.
+games-misc/funkin-haxe-libraries:base-libs - Install the minimum required Haxe libraries
+games-misc/funkin-haxe-libraries:kade-libs - Install the Haxe libraries required for Kade Engine mods.
+games-misc/funkin-haxe-libraries:psych-libs - Install the Haxe libraries required for Psych Engine mods.
+games-misc/funkin-haxe-libraries:specialty-libs - Install Haxe libraries that some specific mods may require (i.e. Wednesday's Infidelity).
