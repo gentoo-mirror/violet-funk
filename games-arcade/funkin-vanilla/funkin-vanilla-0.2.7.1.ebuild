@@ -83,6 +83,8 @@ src_compile() {
 
 	fi
 
+	HAXE_STD_PATH=${WORKDIR}/haxe-bin/std
+
 	# Note: Source tarball already has APIStuff.hx included
 	# We don't need to create the file here
 
@@ -90,6 +92,7 @@ src_compile() {
 		cp -r "${WORKDIR}/assets/songs/" "${S}/assets/"
 	fi
 
+	alias haxe='${WORKDIR}/haxe-bin/haxe'
 	# FNF requires several Haxe libraries for it to compile correctly.
 	# This was previously handled by a package named funkin-haxe-libraries, which has since been removed.
 	# They are being installed here for the sake of Portage and my own sanity.
