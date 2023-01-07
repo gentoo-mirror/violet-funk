@@ -48,7 +48,7 @@ funkin-mods/wi:pulseaudio - Enable PulseAudio support; useful for desktop sessio
 funkin-mods/zardy-kade:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/zardy-kade:alsa - Enable basic audio support. Useful for most sessions.
 funkin-mods/zardy-kade:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
-games-arcade/funkin-vanilla:X - Pull in X and its dependencies to be able to run the game.
-games-arcade/funkin-vanilla:alsa - Enable basic audio support. Useful for most sessions.
-games-arcade/funkin-vanilla:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
-games-arcade/funkin-vanilla:utau - Override the standard songs with covers synthesized using UTAU/OpenUTAU software.
+games-arcade/funkin:X - Pull in X and its dependencies to be able to run the game.
+games-arcade/funkin:alsa - Enable basic audio support. Useful for most sessions.
+games-arcade/funkin:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+games-arcade/funkin:utau - Override the standard songs with covers synthesized using UTAU/OpenUTAU software.
