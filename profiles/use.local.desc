@@ -50,5 +50,8 @@ funkin-mods/zardy-kade:alsa - Enable basic audio support. Useful for most sessio
 funkin-mods/zardy-kade:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 games-arcade/funkin:X - Pull in X and its dependencies to be able to run the game.
 games-arcade/funkin:alsa - Enable basic audio support. Useful for most sessions.
+games-arcade/funkin:lime-debug - Tell Lime to build the debug target.
+games-arcade/funkin:lime-final - Tell Lime to build the final target.
+games-arcade/funkin:lime-release - Tell Lime to build the release target.
 games-arcade/funkin:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 games-arcade/funkin:utau - Override the standard songs with covers synthesized using UTAU/OpenUTAU software.
