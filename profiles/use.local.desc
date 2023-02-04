@@ -4,9 +4,15 @@
 
 funkin-mods/beepie:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/beepie:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/beepie:lime-debug - Tell Lime to build the debug target.
+funkin-mods/beepie:lime-final - Tell Lime to build the final target.
+funkin-mods/beepie:lime-release - Tell Lime to build the release target.
 funkin-mods/beepie:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 funkin-mods/cyber-sensation:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/cyber-sensation:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/cyber-sensation:lime-debug - Tell Lime to build the debug target.
+funkin-mods/cyber-sensation:lime-final - Tell Lime to build the final target.
+funkin-mods/cyber-sensation:lime-release - Tell Lime to build the release target.
 funkin-mods/cyber-sensation:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 funkin-mods/ddt:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/ddt:alsa - Enable basic audio support. Useful for most sessions.
