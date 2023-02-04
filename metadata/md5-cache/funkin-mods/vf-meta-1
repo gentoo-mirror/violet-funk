@@ -1,8 +1,0 @@
-DEFINED_PHASES=-
-DEPEND=funkin-mods/beepie funkin-mods/cyber-sensation funkin-mods/ddt-be funkin-mods/ddt funkin-mods/fliqpy-kade funkin-mods/fnf-soft funkin-mods/jenny funkin-mods/lullaby funkin-mods/mcm funkin-mods/sunday funkin-mods/the-puppet-master funkin-mods/tricky-kade funkin-mods/wi funkin-mods/zardy-kade
-DESCRIPTION=Metapackage for FNF mods
-EAPI=8
-KEYWORDS=~amd64
-LICENSE=metapackage
-SLOT=0
-_md5_=92f558aa11593c6e0799223486a36e1e
