@@ -16,6 +16,9 @@ funkin-mods/cyber-sensation:lime-release - Tell Lime to build the release target
 funkin-mods/cyber-sensation:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 funkin-mods/ddt:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/ddt:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/ddt:lime-debug - Tell Lime to build the debug target.
+funkin-mods/ddt:lime-final - Tell Lime to build the final target.
+funkin-mods/ddt:lime-release - Tell Lime to build the release target.
 funkin-mods/ddt:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 funkin-mods/ddt-be:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/ddt-be:alsa - Enable basic audio support. Useful for most sessions.
