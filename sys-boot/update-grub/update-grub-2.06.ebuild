@@ -22,7 +22,7 @@ S=${WORKDIR}
 DEPEND="
 	app-shells/bash
 	sys-boot/grub
-	sys-devel/coreutils
+	sys-apps/coreutils
 "
 RDEPEND="${DEPEND}"
 BDEPEND="
