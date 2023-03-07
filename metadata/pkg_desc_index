@@ -15,3 +15,4 @@ funkin-mods/zardy-kade 0.2.7.1: FNF mod based around a scarecrow and his cablest
 games-arcade/funkin 0.2.7.1: A rhythm game made with HaxeFlixel
 media-libs/libvlccore7 1: Pre-built libvlccore7 libraries, needed by some mods
 net-libs/libidn11 1: Pre-built libidn11 shared objects, needed for some mods to work
+sys-boot/update-grub 2.06: A stub for generating a GRUB/GRUB2 configuration

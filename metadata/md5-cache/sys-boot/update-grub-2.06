@@ -1,0 +1,12 @@
+BDEPEND=sys-devel/binutils
+DEFINED_PHASES=install postinst unpack
+DEPEND=app-shells/bash sys-boot/grub sys-apps/coreutils
+DESCRIPTION=A stub for generating a GRUB/GRUB2 configuration
+EAPI=8
+HOMEPAGE=https://manpages.debian.org/testing/grub2-common/update-grub.8.en.html
+KEYWORDS=~amd64 ~x86 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~riscv ~sparc
+LICENSE=GPL-3
+RDEPEND=app-shells/bash sys-boot/grub sys-apps/coreutils
+SLOT=0
+SRC_URI=http://ftp.debian.org/debian/pool/main/g/grub2/grub2-common_2.06-8_amd64.deb
+_md5_=5bb18c8754b3dbb38cc608b83d9b9937
