@@ -41,7 +41,7 @@ src_install() {
 	dosym "/usr/sbin/update-grub" "/usr/sbin/update-grub2"
 }
 pkg_postinst() {
-	einfo "update-grub has been installed to /usr/sbin."
-	einfo "\n\nSome systems may not have /usr/sbin in their PATH; if this is the case for your system, you may want to do so."
-	einfo "\n\nAfter updating PATH, remember to run . /etc/profile in your shell."
+	elog "update-grub has been installed to /usr/sbin."
+	elog "\n\nSome systems may not have /usr/sbin in their PATH; if this is the case for your system, you may want to do so."
+	elog "\n\nAfter updating PATH, remember to run . /etc/profile in your shell."
 }
