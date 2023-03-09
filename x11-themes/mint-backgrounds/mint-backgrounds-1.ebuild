@@ -92,13 +92,15 @@ DEPEND="sys-devel/binutils"
 RDEPEND="${DEPEND}"
 BDEPEND="${DEPEND}"
 
-src_unpack() {
-	for pkg in $(find ${S} -name *.deb); do
-		unpack_deb $pkg
-	done
+unpacker_src_unpack() {
+	unpacker *.deb
 }
 
 src_install() {
 	insinto /usr
-	doins -r ${S}/usr/share
+	for dir in ${S}/usr/share/; do
+		if [ $dir != ${S}/usr/share/doc ]; then
+			doins -r $dir
+		fi
+	done
 }
