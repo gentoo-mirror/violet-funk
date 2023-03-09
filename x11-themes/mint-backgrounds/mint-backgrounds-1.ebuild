@@ -135,6 +135,4 @@ unpacker_src_unpack() {
 src_install() {
 	insinto /usr/share
 	doins -r ${S}/usr/share/backgrounds
-	docinto /usr/share
-	dodoc -r ${S}/usr/share/doc
 }
