@@ -93,7 +93,7 @@ RDEPEND="${DEPEND}"
 BDEPEND="${DEPEND}"
 
 unpacker_src_unpack() {
-	unpacker *.deb
+	unpacker $(find -name *.deb)
 }
 
 src_install() {
