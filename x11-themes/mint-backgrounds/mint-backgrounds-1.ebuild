@@ -93,7 +93,7 @@ RDEPEND="${DEPEND}"
 BDEPEND="${DEPEND}"
 
 src_unpack() {
-	for pkg in $(find -name '.deb'); do
+	for pkg in $(find ${S} -name *.deb); do
 		unpack_deb $pkg
 	done
 }
