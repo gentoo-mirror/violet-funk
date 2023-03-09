@@ -47,7 +47,7 @@ SRC_URI="
 	debian? ( http://packages.linuxmint.com/pool/main/m/mint-backgrounds-debian/mint-backgrounds-debian_1.4_all.deb )
 "
 
-LICENSE="CC0-1.0 CC-BY-NC-ND-4.0 CC-BY-SA-4.0 metapackage"
+LICENSE="CC0-1.0 CC-BY-NC-ND-4.0 CC-BY-SA-4.0 GPL-3 metapackage"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~riscv ~sparc ~x86"
 S="${WORKDIR}"
@@ -135,4 +135,6 @@ unpacker_src_unpack() {
 src_install() {
 	insinto /usr/share
 	doins -r ${S}/usr/share/backgrounds
+	docinto /usr/share
+	dodoc -r ${S}/usr/share/doc
 }
