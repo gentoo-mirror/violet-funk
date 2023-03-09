@@ -88,9 +88,9 @@ IUSE="
 	debian
 "
 
-DEPEND=""
+DEPEND="sys-devel/binutils"
 RDEPEND="${DEPEND}"
-BDEPEND="app-arch/tar"
+BDEPEND="${DEPEND}"
 
 src_unpack() {
 	unpack_deb *.deb
