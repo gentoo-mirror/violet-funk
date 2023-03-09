@@ -15,3 +15,5 @@ funkin-mods/zardy-kade 0.2.7.1: FNF mod based around a scarecrow and his cablest
 games-arcade/funkin 0.2.7.1: A rhythm game made with HaxeFlixel
 media-libs/libvlccore7 1: Pre-built libvlccore7 libraries, needed by some mods
 x11-themes/mint-backgrounds 1: USE-based meta package for Linux Mint backgrounds
+x11-themes/mint-icons 1.6.4: The icon themes for Linux Mint
+x11-themes/mint-themes 2.0.9: A collection of themes from Linux Mint

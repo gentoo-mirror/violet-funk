@@ -95,3 +95,6 @@ x11-themes/mint-backgrounds:una - Pull in backgrounds from Linux Mint 20.3.
 x11-themes/mint-backgrounds:vanessa - Pull in backgrounds from Linux Mint 21.
 x11-themes/mint-backgrounds:vera - Pull in backgrounds from Linux Mint 21.1.
 x11-themes/mint-backgrounds:xfce - Pull in Linux Mint's base Xfce backdrops.
+x11-themes/mint-icons:legacy - Install the legacy Mint-Y icons.
+x11-themes/mint-icons:mint-x - Install the Mint-X icons.
+x11-themes/mint-themes:legacy - Install the Mint-X themes.
