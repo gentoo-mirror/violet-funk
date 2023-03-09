@@ -98,14 +98,5 @@ unpacker_src_unpack() {
 
 src_install() {
 	insinto /usr
-	DOCDIR=$(find ${S}/usr -type d -wholename '${S}/usr/share/doc')
-	if [ -z ${DOCDIR} ]; then
-		doins -r ${S}/usr/share
-	else
-		for dir in $(find ${S}/usr/share -type d); do
-			if [ "${dir}" != "${DOCDIR}" ]; then
-				doins -r "${dir}"
-			fi
-		done
-	fi
+	doins -r ${S}/usr/share/backgrounds
 }
