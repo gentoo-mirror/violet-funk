@@ -92,10 +92,8 @@ DEPEND="sys-devel/binutils"
 RDEPEND="${DEPEND}"
 BDEPEND="${DEPEND}"
 
-src_unpack() {
-	for pkg in $(find ${S} -name *.deb); do
-		unpack_deb $pkg
-	done
+unpacker_src_unpack() {
+	unpacker *.deb
 }
 
 src_install() {
