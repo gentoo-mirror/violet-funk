@@ -101,6 +101,8 @@ src_install() {
 	DOCDIR=$(find ${S}/usr/share -type d -name 'doc')
 	for dir in $(find ${S}/usr/share -type d); do
 		if [ -z $DOCDIR ]; then
+			doins -r $dir
+		else
 			if [ $dir != $DOCDIR ]; then
 				doins -r $dir
 			fi
