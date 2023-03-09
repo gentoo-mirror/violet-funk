@@ -97,6 +97,6 @@ unpacker_src_unpack() {
 }
 
 src_install() {
-	insinto /usr
+	insinto /usr/share
 	doins -r ${S}/usr/share/backgrounds
 }
