@@ -97,6 +97,10 @@ unpacker_src_unpack() {
 }
 
 src_install() {
-	insinto /usr
-	doins -r ${S}/usr/share
+	insinto /usr/share
+	for dir in ${S}/usr/share/; do
+		if [ $dir != ${S}/usr/share/doc ]; then
+			doins -r $doc
+		fi
+	done
 }
