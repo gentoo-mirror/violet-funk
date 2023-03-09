@@ -99,7 +99,7 @@ unpacker_src_unpack() {
 src_install() {
 	insinto /usr
 	for dir in ${S}/usr/share/; do
-		if [ $dir != ${S}/usr/share/doc ]; then
+		if [ ! $(find $dir -type d -name 'doc' ]; then
 			doins -r $dir
 		fi
 	done
