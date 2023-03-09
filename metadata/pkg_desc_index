@@ -14,3 +14,4 @@ funkin-mods/wi 2.0.0: Linux port of Wednesday's Infidelity
 funkin-mods/zardy-kade 0.2.7.1: FNF mod based around a scarecrow and his cablestand
 games-arcade/funkin 0.2.7.1: A rhythm game made with HaxeFlixel
 media-libs/libvlccore7 1: Pre-built libvlccore7 libraries, needed by some mods
+x11-themes/mint-backgrounds 1: USE-based meta package for Linux Mint backgrounds
