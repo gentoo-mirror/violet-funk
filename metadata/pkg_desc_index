@@ -13,7 +13,7 @@ funkin-mods/the-puppet-master 0.2.7: A one-song FNF mod based on TheMaskedChris'
 funkin-mods/tricky-kade 2.0.0: FNF mod based on Madness Combat's Tricky
 funkin-mods/wi 2.0.0: Linux port of Wednesday's Infidelity
 funkin-mods/zardy-kade 0.2.7.1: FNF mod based around a scarecrow and his cablestand
-games-arcade/funkin 0.2.7.1: A rhythm game made with HaxeFlixel
+games-arcade/funkin 0.2.7.1-r1: A rhythm game made with HaxeFlixel
 media-libs/libvlccore7 1: Pre-built libvlccore7 libraries, needed by some mods
 x11-themes/mint-backgrounds 1: USE-based meta package for Linux Mint backgrounds
 x11-themes/mint-icons 1.6.4: The icon themes for Linux Mint
