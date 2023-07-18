@@ -81,9 +81,9 @@ hxcpp_src_compile() {
 	
 	HXCPP_JOBS=$(echo ${MAKEOPTS} | tr -dc '0-9')
 	if [[ ! -z ${HXCPP_JOBS} ]] ; then
-		HXCPP_COMPILE_THREADS=${HXCPP_JOBS} haxelib run lime build linux -$HXCPP_LIME_TARGET
+		HXCPP_COMPILE_THREADS=${HXCPP_JOBS} haxelib run lime build linux -v -${HXCPP_LIME_TARGET}
 	else
-		haxelib run lime build linux -$HXCPP_LIME_TARGET
+		haxelib run lime build linux -v -${HXCPP_LIME_TARGET}
 	fi
 
 }
