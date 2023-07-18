@@ -1,0 +1,16 @@
+BDEPEND=x11-libs/libX11 media-libs/alsa-lib pulseaudio? ( media-sound/pulseaudio ) dev-lang/haxe
+DEFINED_PHASES=compile install postinst postrm prepare
+DEPEND=x11-libs/libX11 media-libs/alsa-lib pulseaudio? ( media-sound/pulseaudio )
+DESCRIPTION=FNF mod based on SrPelo's Mokey
+EAPI=8
+HOMEPAGE=https://github.com/MagelessMayhem/VsMokey
+INHERIT=desktop hxcpp xdg-utils
+IUSE=+X +alsa pulseaudio lime-debug lime-final +lime-release
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=x11-libs/libX11 media-libs/alsa-lib pulseaudio? ( media-sound/pulseaudio )
+REQUIRED_USE=X alsa || ( lime-debug lime-final lime-release ) lime-debug? ( !lime-final !lime-release ) lime-final? ( !lime-debug !lime-release ) lime-release? ( !lime-debug !lime-final )
+SLOT=0
+SRC_URI=https://github.com/MagelessMayhem/VsMokey/archive/refs/tags/0.2.7.tar.gz -> mokey-0.2.7.tar.gz
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	hxcpp	85d2a2ea6d36b01f74d23f51d4968f90	xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=cb6bd04c3ee86b919c176c66f5864257

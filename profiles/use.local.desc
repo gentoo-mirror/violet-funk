@@ -38,6 +38,12 @@ funkin-mods/lullaby:pulseaudio - Enable PulseAudio support; useful for desktop s
 funkin-mods/mcm:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/mcm:alsa - Enable basic audio support. Useful for most sessions.
 funkin-mods/mcm:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
+funkin-mods/mokey:X - Pull in X and its dependencies to be able to run the game.
+funkin-mods/mokey:alsa - Enable basic audio support. Useful for most sessions.
+funkin-mods/mokey:lime-debug - Tell Lime to build the debug target.
+funkin-mods/mokey:lime-final - Tell Lime to build the final target.
+funkin-mods/mokey:lime-release - Tell Lime to build the release target.
+funkin-mods/mokey:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
 funkin-mods/sunday:X - Pull in X and its dependencies to be able to run the game.
 funkin-mods/sunday:alsa - Enable basic audio support. Useful for most sessions.
 funkin-mods/sunday:pulseaudio - Enable PulseAudio support; useful for desktop sessions. This will override the alsa USE flag.
