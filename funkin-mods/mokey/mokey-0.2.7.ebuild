@@ -53,7 +53,6 @@ src_prepare() {
 src_compile() {
 
 	haxelib setup ${S}/.haxelib
-	haxelib run lime rebuild extension-webm linux
 
 	if use !lime-release; then
 		if use lime-debug; then
