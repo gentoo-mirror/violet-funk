@@ -42,7 +42,7 @@ BDEPEND="dev-lang/haxe"
 hxcpp_src_prepare() {
 	# Check if the current directory contains HXCPP	
 	if [[ -d "${S}/.haxelib/hxcpp" ]] ; then
-		HXCPP_XML=$(find "${WORKDIR}/.haxelib/hxcpp" -name common-defines.xml)
+		HXCPP_XML=$(find "${S}/.haxelib/hxcpp" -name common-defines.xml)
 		if [[ ! -z "$HXCPP_XML" ]] ; then
 			# Use sed magic to add compiler flags to HXCPP's main XML
 			# If for whatever reason CFLAGS/CXXFLAGS aren't set, no magic will be used
