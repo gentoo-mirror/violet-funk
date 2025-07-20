@@ -1,9 +1,0 @@
-DEFINED_PHASES=install
-DESCRIPTION=Pre-built libvlccore7 libraries, needed by some mods
-EAPI=8
-HOMEPAGE=https://github.com/videolan/vlc
-KEYWORDS=~amd64
-LICENSE=LGPL-2.1
-SLOT=0
-SRC_URI=https://github.com/MagelessMayhem/hxCodec/releases/download/v2.5.1/libvlccore7.tar.gz
-_md5_=b286b54d4aecd8b6de6cf520b952de95
